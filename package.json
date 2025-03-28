@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "next-and-nextauth-monorepo-context-bug",
   "private": true,
   "scripts": {
     "build": "turbo run build",
