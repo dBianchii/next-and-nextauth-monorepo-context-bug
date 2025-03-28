@@ -1,8 +1,6 @@
-"use client";
-
 import type { Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
-export default function CCSessionProvider({
+export default function Providers({
   children,
   session,
 }: {
