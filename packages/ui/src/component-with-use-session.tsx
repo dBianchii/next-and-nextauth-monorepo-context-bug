@@ -1,3 +1,5 @@
+"use client";
+
 import { useSession } from "next-auth/react";
 
 export default function ComponentWithUseSession() {
@@ -5,7 +7,7 @@ export default function ComponentWithUseSession() {
 
   return (
     <div>
-      <p>{JSON.stringify(session)}</p>
+      <p>{session?.user?.name}</p>
     </div>
   );
 }
